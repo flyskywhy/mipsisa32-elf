@@ -3,7 +3,7 @@ OUTPUT_FORMAT("elf32-bigmips", "elf32-bigmips",
 	      "elf32-littlemips")
 OUTPUT_ARCH(mips)
 ENTRY(_start)
-SEARCH_DIR("/home/test/build/toolchains/mipsisa32-elf/tools/mipsisa32-elf/lib");
+SEARCH_DIR("/gnutools/builds/toolchains/mipsisa32-elf/tools/mipsisa32-elf/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
